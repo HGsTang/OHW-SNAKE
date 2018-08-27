@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AD37BCC-B098-8650-CC8C-7E623EA7F5F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>F:/unityfile/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>F:/unityfile/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Debuger">
+      <HintPath>Assets/Foundation/Debuger.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets/Foundation/protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>Assets/Foundation/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:/unityfile/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Snaker-master.Plugins.csproj">
+      <Project>{881CB299-4C49-718E-36E5-216E82C13D31}</Project>
+      <Name>Snaker-master.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\EasyTouch\Plugins\EasyButton.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyJoystick.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\Finger.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\Gesture.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\MonoSingleton.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\MovingJoystick.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\VirtualScreen.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+    <Compile Include="Assets\SGF\Codec\MiniJSON.cs" />
+    <Compile Include="Assets\SGF\Codec\PBSerializer.cs" />
+    <Compile Include="Assets\SGF\Codec\QRCodeUtils.cs" />
+    <Compile Include="Assets\SGF\Codec\SGFEncoding.cs" />
+    <Compile Include="Assets\SGF\Common\MapList.cs" />
+    <Compile Include="Assets\SGF\Common\Singleton.cs" />
+    <Compile Include="Assets\SGF\Extension\CollectionExtensions.cs" />
+    <Compile Include="Assets\SGF\Extension\DictionaryExtension.cs" />
+    <Compile Include="Assets\SGF\Extension\ObjectExtensions.cs" />
+    <Compile Include="Assets\SGF\Extension\TransformExtensions.cs" />
+    <Compile Include="Assets\SGF\Math\SGFRandom.cs" />
+    <Compile Include="Assets\SGF\Module\Example\Example_Module.cs" />
+    <Compile Include="Assets\SGF\Module\Framework\BusinessModule.cs" />
+    <Compile Include="Assets\SGF\Module\Framework\EventTable.cs" />
+    <Compile Include="Assets\SGF\Module\Framework\LuaModule.cs" />
+    <Compile Include="Assets\SGF\Module\Framework\Module.cs" />
+    <Compile Include="Assets\SGF\Module\Framework\ModuleManager.cs" />
+    <Compile Include="Assets\SGF\Module\Framework\ServiceModule.cs" />
+    <Compile Include="Assets\SGF\Network\Base\ConnectManager.cs" />
+    <Compile Include="Assets\SGF\Network\Base\NetBuffer.cs" />
+    <Compile Include="Assets\SGF\Network\Base\NetErrorCode.cs" />
+    <Compile Include="Assets\SGF\Network\Base\ProtocolHead.cs" />
+    <Compile Include="Assets\SGF\Network\Base\ProtocolManager.cs" />
+    <Compile Include="Assets\SGF\Network\Base\UdpSocket.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Client\FSPClient.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Client\FSPFrameController.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Client\FSPManager.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\FSPGameEndReason.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\FSPGameState.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\FSPLiteData.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\FSPVKeyBase.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\Data\FSPGameStartParam.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\Data\FSPPlayerData.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\Data\FSPRoomData.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\FSPGame.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\FSPPlayer.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\FSPRoom.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\FSPServer.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\Server\FSPSession.cs" />
+    <Compile Include="Assets\SGF\Network\FSPLite\_Example\Example_FSPLite.cs" />
+    <Compile Include="Assets\SGF\Network\Interface\IConnection.cs" />
+    <Compile Include="Assets\SGF\Network\KCP\KCPSocket.cs" />
+    <Compile Include="Assets\SGF\Network\KCP\kcp.cs" />
+    <Compile Include="Assets\SGF\Network\KCP\switch_queue.cs" />
+    <Compile Include="Assets\SGF\Network\NetworkManager.cs" />
+    <Compile Include="Assets\SGF\Network\RPCLite\Example\Example_RPC.cs" />
+    <Compile Include="Assets\SGF\Network\RPCLite\RPCMessage.cs" />
+    <Compile Include="Assets\SGF\Network\RPCLite\RPCMethodHelper.cs" />
+    <Compile Include="Assets\SGF\Network\RPCLite\RPCService.cs" />
+    <Compile Include="Assets\SGF\Network\Utils\DnsUtils.cs" />
+    <Compile Include="Assets\SGF\Network\Utils\IPUtils.cs" />
+    <Compile Include="Assets\SGF\Storage\Utils\FileUtils.cs" />
+    <Compile Include="Assets\SGF\Storage\Utils\PathUtils.cs" />
+    <Compile Include="Assets\SGF\Time\TimeUtils.cs" />
+    <Compile Include="Assets\SGF\UI\Component\UIComponent.cs" />
+    <Compile Include="Assets\SGF\UI\Component\UIList.cs" />
+    <Compile Include="Assets\SGF\UI\Component\UIListItem.cs" />
+    <Compile Include="Assets\SGF\UI\Example\Example_UI.cs" />
+    <Compile Include="Assets\SGF\UI\Example\UIPage1.cs" />
+    <Compile Include="Assets\SGF\UI\Example\UIPage2.cs" />
+    <Compile Include="Assets\SGF\UI\Example\UIWidget1.cs" />
+    <Compile Include="Assets\SGF\UI\Example\UIWnd1.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIManager.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIPage.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIPanel.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIRes.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIRoot.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIUtils.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIWidget.cs" />
+    <Compile Include="Assets\SGF\UI\Framework\UIWindow.cs" />
+    <Compile Include="Assets\SGF\UI\SGUI\Drawing.cs" />
+    <Compile Include="Assets\SGF\UI\SGUI\DrawingSimple.cs" />
+    <Compile Include="Assets\SGF\UI\SGUI\GUICurve.cs" />
+    <Compile Include="Assets\SGF\Unity\AppPrefs.cs" />
+    <Compile Include="Assets\SGF\Unity\DelayInvoker.cs" />
+    <Compile Include="Assets\SGF\Unity\GameObjectUtils.cs" />
+    <Compile Include="Assets\SGF\Unity\MonoHelper.cs" />
+    <Compile Include="Assets\SGF\Unity\MonoSingleton.cs" />
+    <Compile Include="Assets\SGF\Unity\NetCheck.cs" />
+    <Compile Include="Assets\SGF\Unity\SetPropertyAttribute.cs" />
+    <Compile Include="Assets\SGF\Unity\VectorExtensions.cs" />
+    <Compile Include="Assets\SGF\Utils\URLUtils.cs" />
+    <Compile Include="Assets\Snaker\AppConfig.cs" />
+    <Compile Include="Assets\Snaker\AppMain.cs" />
+    <Compile Include="Assets\Snaker\Game\Data\GameMode.cs" />
+    <Compile Include="Assets\Snaker\Game\Data\GameParam.cs" />
+    <Compile Include="Assets\Snaker\Game\Data\GameVKey.cs" />
+    <Compile Include="Assets\Snaker\Game\Data\MapData.cs" />
+    <Compile Include="Assets\Snaker\Game\Data\PlayerData.cs" />
+    <Compile Include="Assets\Snaker\Game\Data\SnakeData.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Factory\EntityFactory.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Factory\EntityObject.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Factory\Recycler.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Factory\ViewFactory.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Factory\ViewObject.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Food\NormalFood.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Snake\SnakeHead.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Snake\SnakeNode.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\Snake\SnakeTail.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\View\Food\VFood.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\View\Snake\VSnakeHeadInk.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\View\Snake\VSnakeNode.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\View\Snake\VSnakeNodeAni.cs" />
+    <Compile Include="Assets\Snaker\Game\Entity\View\Snake\VSnakeNodeGlare.cs" />
+    <Compile Include="Assets\Snaker\Game\GameCamera.cs" />
+    <Compile Include="Assets\Snaker\Game\GameContext.cs" />
+    <Compile Include="Assets\Snaker\Game\GameEvent.cs" />
+    <Compile Include="Assets\Snaker\Game\GameInput.cs" />
+    <Compile Include="Assets\Snaker\Game\GameManager.cs" />
+    <Compile Include="Assets\Snaker\Game\Map\GameMap.cs" />
+    <Compile Include="Assets\Snaker\Game\Map\MapScript.cs" />
+    <Compile Include="Assets\Snaker\Game\Player\Component\PCSnakeAI.cs" />
+    <Compile Include="Assets\Snaker\Game\Player\Component\PlayerComponent.cs" />
+    <Compile Include="Assets\Snaker\Game\Player\SnakePlayer.cs" />
+    <Compile Include="Assets\Snaker\Module\GlobalEvent.cs" />
+    <Compile Include="Assets\Snaker\Module\Home\HomeModule.cs" />
+    <Compile Include="Assets\Snaker\Module\Host\HostModule.cs" />
+    <Compile Include="Assets\Snaker\Module\Login\LoginModule.cs" />
+    <Compile Include="Assets\Snaker\Module\ModuleDef.cs" />
+    <Compile Include="Assets\Snaker\Module\PVE\PVEGame.cs" />
+    <Compile Include="Assets\Snaker\Module\PVE\PVEModule.cs" />
+    <Compile Include="Assets\Snaker\Service\UserManager\Data\UserData.cs" />
+    <Compile Include="Assets\Snaker\Service\UserManager\UserManager.cs" />
+    <Compile Include="Assets\Snaker\UI\Common\UIMsgBox.cs" />
+    <Compile Include="Assets\Snaker\UI\Home\UIHomePage.cs" />
+    <Compile Include="Assets\Snaker\UI\Host\UIHostWnd.cs" />
+    <Compile Include="Assets\Snaker\UI\Login\UILoginPage.cs" />
+    <Compile Include="Assets\Snaker\UI\PVE\UIPVEGamePage.cs" />
+    <Compile Include="Assets\Snaker\UI\UIAPI.cs" />
+    <Compile Include="Assets\Snaker\UI\UIDef.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Editor\Reign\ManifestTools\DefaultAndroidManifests\AndroidManifest_Amazon.xml" />
+    <None Include="Assets\Editor\Reign\ManifestTools\DefaultAndroidManifests\AndroidManifest_GooglePlay.xml" />
+    <None Include="Assets\Editor\Reign\ManifestTools\DefaultAndroidManifests\AndroidManifest_Samsung.xml" />
+    <None Include="Assets\SGF\Network\KCP\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
